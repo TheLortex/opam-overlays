@@ -28,7 +28,7 @@ depends: [
   "mirage-xen-minios" {>= "0.7.0"}
   "logs"
   "fmt"
-  "mirage-os-shim"
+  "mirage-os-shim" {>= "2.0.0"}
 ]
 conflicts: [
   "dune" {= "1.9.1"}
