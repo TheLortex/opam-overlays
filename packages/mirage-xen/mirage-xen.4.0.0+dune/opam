@@ -3,7 +3,7 @@ maintainer:   "anil@recoil.org"
 authors:      "The MirageOS team"
 homepage:     "https://github.com/mirage/mirage-xen"
 bug-reports:  "https://github.com/mirage/mirage-xen/issues/"
-dev-repo:     "git+https://github.com/mirage/mirage-xen.git"
+dev-repo:     "git+https://github.com/TheLortex/mirage-xen.git"
 doc:          "https://mirage.github.io/mirage-xen/"
 license:      "ISC"
 tags:         ["org:mirage"]
@@ -42,5 +42,5 @@ the low level C startup code and C stubs required by the OCaml code.
 """
 url {
   src:
-    "git+https://github.com/mirage/mirage-xen.git"
+    "git+https://github.com/TheLortex/mirage-xen.git#impl-mirage-os-shim"
 }
