@@ -33,7 +33,7 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
   ["dune" "runtest" "-p" name "-j" jobs] {with-test}
 ]
-dev-repo: "git+https://github.com/hannesm/ocaml-x509.git"
+dev-repo: "git+https://github.com/mirleft/ocaml-x509.git"
 synopsis: "Public Key Infrastructure (RFC 5280, PKCS) purely in OCaml"
 description: """
 X.509 is a public key infrastructure used mostly on the Internet.  It consists
@@ -45,5 +45,5 @@ which is also partially implemented by this library - namely PKCS 1, PKCS 7,
 PKCS 8, PKCS 9 and PKCS 10.
 """
 url {
-  src: "git+https://github.com/hannesm/ocaml-x509#future"
+  src: "git+https://github.com/mirleft/ocaml-x509#master"
 }
