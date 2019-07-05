@@ -17,7 +17,7 @@ build: [ ["dune" "build" "-p" name "-j" jobs] ]
 depends: [
   "ocaml" {>= "4.04.2"}
   "dune"
-  "mirage-solo5" {>= "0.3.0"}
+  "mirage-solo5" {>= "4.0.0"}
   "lwt"
   "parse-argv"
 ]

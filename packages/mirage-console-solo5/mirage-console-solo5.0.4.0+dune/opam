@@ -17,7 +17,7 @@ depends: [
   "ocaml" {>= "4.04.2"}
   "dune"
   "mirage-console-lwt" {>= "2.2.0"}
-  "mirage-solo5" {>= "0.3.0"}
+  "mirage-solo5" {>= "4.0.0"}
   "cstruct"
   "lwt"
 ]
